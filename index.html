@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnixMedia WorkForm</title>
+    <!-- TailwindCSS CDN Addition  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Additional CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="text-center pt-8">
+            <h1 class="titler">
+                Work Form
+            </h1>
+            </div>
+    </div>
+    <hr class="reducer">
+    <div class="form">
+        <form action="/action_page.php" method="get">
+            <h4 class="text-center">What department was the project for:</h4>
+
+            <div class="shifter">
+                <input type="checkbox" id="web" name="department_type" value="Web">
+                <label for="web">Web</label>
+                <input type="checkbox" id="graphic" name="department_type" value="Graphic">
+                <label for="grapic">Graphic</label>
+                <input type="checkbox" id="javascript" name="department_type" value="Other">
+                <label for="other">Other</label>
+            </div>
+            <br />
+            <div class="hrsworked">
+                <label for="hoursworked">Total Hours Worked:</label><br />
+                <input type="number" id="hoursworked" name="hoursworked">
+                
+                <!-- <select class="form-select px-4 py-3 rounded-full"></select> -->
+                <br />
+                <label for="datepicker">Date Worked:</label><br />
+                <input type="date" class="form-checkbox rounded text-pink-500" />
+            </div>
+           
+            <br />
+            <div class="projects">
+                <label for="projectname">Project name:</label><br>
+                <input type="text" id="projectname" name="projectname">
+                <br />
+                <label for="briefsum">In your own words, write a brief summary about what it does:</label><br>
+                <textarea id="briefsum" name="briefsum" rows="16" cols="40"> </textarea><br>
+                <div class="subbtn">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+
+          </form>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>

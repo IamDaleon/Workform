@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+body input{
+    color: black;
+}
+
+h4{
+    padding-bottom: 5px;
+}
+.reducer{
+    margin:15px 25%;
+}
+
+.titler{
+    font-size: 30px;
+    font-weight:800;
+}
+
+.shifter {
+    text-align: center;
+}
+
+.hrsworked {
+    text-align:center;
+}
+
+.projects {
+    text-align:center;
+}
+
+input {
+    color:black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid green;
+}
+
+input:focus {
+    color:black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+textarea {
+    color: black;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+textarea:focus{
+    color: black;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.subbtn input{
+    width: 50%;
+    margin-top: 40px; 
+    padding: 30px 0;
+    border-radius: 50px;
+    background-color: green;
+}
